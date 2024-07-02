@@ -1,4 +1,4 @@
-<h1>Active Directory Home Lab Project</h1>
+<h1>Active Directory Home Lab Project - Installing Windows Server 2016/Initial Setup</h1>
 
 <h2>Description</h2>
 This project(s) shows users how to start hands-on with Active Directory using virtualbox and installing Windows Server 2016. Knowing the basics of Active Directory is an important service within any IT environment to help simplify user profiles, data, assets and providing enhanced security within a Windows domained network. This is just the downloads initialization/start, with downloading the environments and configuring the virtual DC. More to follow after these steps below.
