@@ -63,8 +63,20 @@ Start up the server and mount the Windows 10 ISO disc file that you downloaded f
 <img src="https://imgur.com/Jp4reyq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-After picking desktop, hit next accept the licensing agreement and select Drive 0 Partition 2, to start and install from scratch. Afterwards, the installation might take a minute so you'll need to wait a bit. <br/>
+After picking desktop, hit next accept the licensing agreement and select Drive 0 Partition 2, to start and install from scratch. Afterwards, the installation might take a minute so you'll need to wait a bit. 
 <img src="https://imgur.com/xA3WQOV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Once the installation finishes, you'll be a familiar black screen. DO NOT PRESS ANYTHING. Let the VM do its thing on its own; otherwise if you press any key it'll revert you to redo the process again.
+<img src="https://imgur.com/KDICfLz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+You'll appear at Customize settings page for the admin credentials for the server. Set it to any password you want and can remember.
+<img src="https://imgur.com/yPcLT3Q.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+After setting up your admin credentials, you'll now be on the homepage. To login, the screenshot below has input keys shown as typically your live keyboard isn't connected to the VM and has specific ways to send inputs to the VM. Select "Send Ctrl+Alt+Del" on the input selections to unlock the page to enter your login info. This concludes the setup and install portion of the project, with another repository dedicated to working in Windows Server.
+<img src="https://imgur.com/mhBcF6y.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <!--
