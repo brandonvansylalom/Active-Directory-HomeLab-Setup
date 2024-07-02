@@ -1,4 +1,4 @@
-<h1>Active Directory Home Lab Project: Getting Started/Initial Installs</h1>
+<h1>Active Directory Home Lab Project</h1>
 
 <h2>Description</h2>
 This project(s) shows users how to start hands-on with Active Directory using virtualbox and installing Windows Server 2016. Knowing the basics of Active Directory is an important service within any IT environment to help simplify user profiles, data, assets and providing enhanced security within a Windows domained network. This is just the downloads initialization/start, with downloading the environments and configuring the virtual DC. More to follow after these steps below.
@@ -57,6 +57,14 @@ Find System on your virtualbox panel and update your CPU cores as necessary. If 
 <br />
 Find Network on your virtualbox panel. We are wanting to create two NICs later, so setting up the network adapter is necessary. Set adapter 1 as NAT (your home/whatever internet you are using). Set adapter 2 as Internal network (the VM environment's network). Example of adapter tabs (pick and 1 and 2, set 1 as NAT and 2 and Internal network).  <br/>
 <img src="https://imgur.com/vhG19OK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Start up the server and mount the Windows 10 ISO disc file that you downloaded from Microsoft. Afterwards, you should be here and select Standard Desktop Experience. If you pick the datacenter option, it'll be just CLI and not GUI which will be a little inconvenient to work with. <br/>
+<img src="https://imgur.com/Jp4reyq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+After picking desktop, hit next accept the licensing agreement and select Drive 0 Partition 2, to start and install from scratch. Afterwards, the installation might take a minute so you'll need to wait a bit. <br/>
+<img src="https://imgur.com/xA3WQOV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <!--
