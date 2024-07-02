@@ -115,9 +115,28 @@ Once done, go to the yellow flag, and hit promote. Add new Forest, name it whate
 <img src="https://imgur.com/PyBBdwX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-After setting the Forest for your Domain, add your password on Domain Controller options. Then hit next all the way and hit Install once there.
+After setting the Forest for your Domain, add your password on Domain Controller options. Then hit next all the way and hit Install once there. <br/>
 <img src="https://imgur.com/xQFLxb7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-
+<br />
+<br />
+Log back in and open Active Directory Users and Computers. <br/>
+<img src="https://imgur.com/KBR8nBG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Right click on mydomain, new and organizational unit. Name it Admins. <br/>
+<img src="https://imgur.com/EhwCfr2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Right click on Admins, new, then user. Name it your name and do a-then your name to signify as an administrator. Set password to never expire so you know it and don't deal with issues. <br/>
+<img src="https://imgur.com/Qv62Y3x.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Next make the administrator account as domain admin. Right click on your user you created, properties, then member of, find "Add" and enter "domain admins." Hit apply when done. This will be the account used to do work on AD; it's not advisable to use the root/origin server account to do work. Sign out and next we'll sign in with that new account we just created. <br/>
+<img src="https://imgur.com/iYtVdZX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Sign in using Other users and YOUR account you just created. Now that we have an administrator account (not the root server account), we can begin to setting up RAS/NAT, joining Windows 10 PC client to our domain and working with PowerShell scripts to create users, which will be documented in another GitHub Repository.<br/>
+<img src="https://imgur.com/nrieDjg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <!--
