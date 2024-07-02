@@ -1,4 +1,4 @@
-<h1>Active Directory Home Lab Project - Installing Windows Server 2016/Initial Setup</h1>
+<h1>Active Directory Home Lab Project - Setting up a basic home lab and adding users with PowerShell/h1>
 
 <h2>Description</h2>
 This project(s) shows users how to start hands-on with Active Directory using virtualbox and installing Windows Server 2016. Knowing the basics of Active Directory is an important service within any IT environment to help simplify user profiles, data, assets and providing enhanced security within a Windows domained network. This is just the downloads initialization/start, with downloading the environments and configuring the virtual DC. More to follow after these steps below.
@@ -75,7 +75,7 @@ You'll appear at Customize settings page for the admin credentials for the serve
 <img src="https://imgur.com/yPcLT3Q.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-After setting up your admin credentials, you'll now be on the homepage. To login, the screenshot below has input keys shown as typically your live keyboard isn't connected to the VM and has specific ways to send inputs to the VM. Select "Send Ctrl+Alt+Del" on the input selections to unlock the page to enter your login info. This concludes the setup and install portion of the project, with another repository dedicated to working in Windows Server.
+After setting up your admin credentials, you'll now be on the homepage. To login, the screenshot below has input keys shown as typically your live keyboard isn't connected to the VM and has specific ways to send inputs to the VM. Select "Send Ctrl+Alt+Del" on the input selections to unlock the page to enter your login info.
 <img src="https://imgur.com/mhBcF6y.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
