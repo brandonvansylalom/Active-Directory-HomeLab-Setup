@@ -1,4 +1,4 @@
-<h1>Active Directory Home Lab Project - Setting up a basic home lab with Windows, Windows Server 2016 and Active Directory Services/Domain Controller</h1>
+<h1>PART 1: Active Directory Home Lab Project - Setting up a basic home lab with Windows, Windows Server 2016 and Active Directory Services/Domain Controller</h1>
 
 <h2>Description</h2>
 In this project I demonstrate how to start hands-on with Active Directory using virtualbox and installing Windows Server 2016. Knowing the basics of Active Directory is an important service within any IT environment to help simplify user profiles, data, assets and providing enhanced security within a Windows domained network. This is just the downloads initialization/start, with downloading the environments and configuring the virtual sandbox. This repository will show users how to download, install and configure virtualbox, Windows Server 2016, and AD/DC's along with creating an administrator account on AD to manage most day to day operations of an IT environment. 
